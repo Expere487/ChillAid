@@ -1,0 +1,71 @@
+.first-six{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.secondary-six{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.petek{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+.petek:nth-child(1):hover{
+    transform: scale(3.5) translateX(100%);
+    z-index: 10;
+    background-color: yellow;
+}
+.petek:nth-child(2):hover{
+    transform: scale(3.5) translateX(70%);
+    z-index: 10;
+    background-color: yellow;
+}
+.petek:nth-child(3):hover{
+    transform: scale(3.5) translateX(0%);
+    z-index: 10;
+    background-color: yellow;
+}
+.petek:nth-child(4):hover{
+    transform: scale(3.5) translateX(-25%);
+    z-index: 10;
+    background-color: yellow;
+}
+.petek:nth-child(5):hover{
+    transform: scale(3.5) translateX(-75%);
+    z-index: 10;
+    background-color: yellow;
+}
+.petek:nth-child(6):hover{
+    transform: scale(3.5) translateX(-100%);
+    z-index: 10;
+    background-color: yellow;
+}
+
+.petek:nth-child(2){
+    bottom: 50px;
+}
+.petek:nth-child(3){
+    bottom: 60px;
+}
+.petek:nth-child(4){
+    bottom: 70px;
+}
+.petek:nth-child(5){
+    bottom: 80px;
+}
+.petek:nth-child(6){
+    bottom: 80px;
+}
